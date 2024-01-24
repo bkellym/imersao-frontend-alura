@@ -1,0 +1,168 @@
+@import "reset.css";
+
+/* estilos generalizados */
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #000000;
+}
+
+.background__primary {
+    background-color: #121212;
+}
+
+.background__secundary {
+    background-color: #272727;
+}
+
+/* estilos do menu lateral */
+
+.sidebar{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 420px;
+}
+
+nav{
+    border-radius: 8px;
+    padding: 24px 0 24px 24px;
+    margin: 8px 0 0 8px;
+}
+
+.item:nth-child(n + 2){
+    margin-top: 24px;
+}
+
+.nav-button {
+    display: flex;
+    font-size: 1.1em;
+    width: 100%;
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.nav-button:hover, .libary-button:hover{
+    color: #FFFFFF;
+}
+
+.nav-button i, .libary-button i {
+    font-size: 1.3em;
+    width: 40px;
+}
+
+/* estilos do menu das bibliotecas */
+
+.libary{
+    border-radius: 8px;
+    padding: 24px 0 24px 24px;
+    margin: 8px 0 0 8px;
+}
+
+.libary-button {
+    font-size: 1.1em;
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.libary-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-add{
+    color: #b3b3b3;
+    margin-right: 16px;
+}
+
+.section-playlist{
+    margin: 32px 8px -16px -16px;
+    border-radius: 8px;
+}
+
+.section-playlist__content span{
+    display: block;
+}
+
+.text{
+    color: #FFFFFF;
+}
+
+.title{
+    font-weight: 900;
+    padding: 16px 24px 16px 16px;
+}
+
+.subtitle{
+    padding: 0 0px 24px 16px;
+}
+
+.libary__button{
+    background-color: #FFFFFF;
+    border-style: none;
+    border-radius: 32px;
+    padding: 8px 16px;
+    font-weight: 600;
+    margin: 16px;
+    cursor: pointer;
+}
+
+.cookies{
+    margin: 64px 0 0 -8px;
+    color: #b3b3b3;
+}
+
+.langague__button{
+    background-color: transparent;
+    border-style:solid;
+    border-color: #878787;
+    color: #878787;
+    border-width: 2px;
+    border-radius: 32px;
+    padding: 8px 16px;
+    font-weight: 300;
+    margin: 56px 0 0 -8px;
+    cursor: pointer;
+}
+
+.footer-premium{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: linear-gradient(45deg, #cb28b8, #2a5ae8);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content span{
+    display: block;
+}
+
+.footer__title{
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin: 16px 32px;
+}
+
+.footer__subtitle{
+    font-size: 0.8em;
+    margin-left: 32px;
+}
+
+.premium__button{
+    background-color: #FFFFFF;
+    border-style: none;
+    border-radius: 32px;
+    padding: 16px 32px;
+    font-weight: 600;
+    margin: 16px 32px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
